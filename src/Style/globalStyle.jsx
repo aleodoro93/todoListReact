@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
    * {
@@ -12,10 +12,12 @@ export const GlobalStyle = createGlobalStyle`
 
 
 body {
-  background: url("/public/kurama.jpg");
-  background-position: 50%;
+  background-image: url("/public/kages.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
   opacity: 100%;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(5px);
   color: #F2F2F2;
   min-height: 100vh;
 }

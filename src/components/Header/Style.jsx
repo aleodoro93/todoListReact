@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const Cabecalho = styled.header`
-  background: #f2a30b;
+  
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 288px;
+  height: 188px;
   position: relative;
+  width: 100vw;
 
   h1 {
     @font-face {
