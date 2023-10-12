@@ -3,6 +3,7 @@ import { Cabecalho, FormNovaTarefa, InputNovaTarefa, BtnNovaTarefa } from "./Sty
 import logoNaruto from "/public/logoNaruto.svg";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 
+
 const Header = ({ onAddTask }) => {
  
  
@@ -21,9 +22,10 @@ const Header = ({ onAddTask }) => {
 
   return (
     <Cabecalho>
+    
       <h1>SHINOBI TO DO LIST</h1>
       <img src={logoNaruto} alt="personagem naruto, do anime: Naruto" />
-
+      
       <FormNovaTarefa onSubmit={handleSubmit}>
         <InputNovaTarefa
           placeholder="Adicionar nova tarefa"
@@ -31,13 +33,18 @@ const Header = ({ onAddTask }) => {
           value={title}
           onChange={aoMudarTitulo}
         />
+        
         <BtnNovaTarefa>
           Criar
           <AiOutlinePlusCircle size={30} />
         </BtnNovaTarefa>
+      
       </FormNovaTarefa>
+      
     </Cabecalho>
+    
   );
 };
 
-export default Header;
+export default Header
+

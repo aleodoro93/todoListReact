@@ -34,7 +34,7 @@ export const InputNovaTarefa = styled.input`
   color: #fff;
   background: #262626;
   border: 1px solid #0d0d0d;
-  border-radius: 8px;
+  border-radius: 20px;
   padding: 0 16px;
   font-size: 16px;
   input::placeholder {
@@ -45,9 +45,9 @@ export const BtnNovaTarefa = styled.button`
   height: 100%;
   padding: 0 16px;
   background: #333333;
-  color: #fff;
+  color: #f2a30b;
   border: none;
-  border-radius: 8px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   gap: 6px;

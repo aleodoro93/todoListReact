@@ -6,6 +6,7 @@ export const TarefasSec = styled.section`
   margin: 0 auto;
   margin-top: 90px;
   padding: 0 1rem;
+  
 `;
 
 export const TarefasHeader = styled.div`
@@ -22,7 +23,7 @@ export const TarefasHeader = styled.div`
 
   p {
     
-    color: #f2a30b;
+    color: #fff;
     font-size: 14px;
     font-weight: 700;
   }

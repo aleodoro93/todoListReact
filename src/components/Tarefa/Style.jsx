@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
+
+
 export const TarefaDiv = styled.div`
- width: 95%;
+  width: 95%;
   background: #262626;
   border: 1px solid #333333;
   padding: 16px;
@@ -10,14 +12,18 @@ export const TarefaDiv = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  
-  p {
-  font-size: 14px;
-  line-height: 19px;
-  color: #f2a30b;
-  margin-right: auto;
 
-}
+  p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #f2a30b;
+    margin-right: auto;
+  }
+
+  p.textCompleted {
+    color: #808080;
+    text-decoration: line-through;
+  }
 `
 
 export const CheckContainer = styled.button`

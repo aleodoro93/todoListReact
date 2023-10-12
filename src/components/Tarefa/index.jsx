@@ -1,18 +1,16 @@
 import React from "react";
 import { TarefaDiv, CheckContainer, BtnDeletar } from "./Style";
-import { TbTrash } from "react-icons/tb";
-
-export const Tarefa = ({ task }) => {
-
+import { MdDeleteSweep } from "react-icons/md";
+import {BsFillCheckCircleFill} from "react-icons/bs"
+export const Tarefa = ({ task, onComplete, onDelete }) => {
   return (
     <TarefaDiv>
-      <CheckContainer>
-       <div />
+      <CheckContainer onClick={() => onComplete(task.id)}>
+        {task.isCompleted ? <BsFillCheckCircleFill /> : <div />}
       </CheckContainer>
-      <p>{task.title}</p>
-
-      <BtnDeletar>
-        <TbTrash size={20} />
+      <p className={task.isCompleted ? "textCompleted" : ""}>{task.title}</p>
+      <BtnDeletar onClick={()=>onDelete(task.id)}>
+        <MdDeleteSweep size={20} />
       </BtnDeletar>
     </TarefaDiv>
   );
