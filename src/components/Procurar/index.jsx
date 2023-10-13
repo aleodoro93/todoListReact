@@ -9,7 +9,7 @@ function Procurar({ procurar, setProcurar }) {
 
   return (
     <DivProcurar>
-      <ProcurarInput
+      <ProcurarInput 
         type="text"
         placeholder="Buscar tarefas"
         value={procurar}

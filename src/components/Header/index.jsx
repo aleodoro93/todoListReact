@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Cabecalho, FormNovaTarefa, InputNovaTarefa, BtnNovaTarefa } from "./Style";
 import logoNaruto from "/public/logoNaruto.svg";
 import { AiOutlinePlusCircle } from "react-icons/ai";
+import logoSasuke from "/public/logoSasuke.svg"
 
 
 const Header = ({ onAddTask }) => {
@@ -22,7 +23,7 @@ const Header = ({ onAddTask }) => {
 
   return (
     <Cabecalho>
-    
+      <img src={logoSasuke} alt="personagem sasuke, do anime naruto: Sasuke"/>
       <h1>SHINOBI TO DO LIST</h1>
       <img src={logoNaruto} alt="personagem naruto, do anime: Naruto" />
       

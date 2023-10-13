@@ -9,6 +9,7 @@ export const DivProcurar = styled.div`
   width: fit-content;
  min-width: 20%;
  min-height: 20%;
+ position: relative;
 `;
 
 export const ProcurarInput = styled.input`

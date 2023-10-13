@@ -6,8 +6,11 @@ export const GlobalStyle = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+  
 
 }
+
+
 
 
 
@@ -20,6 +23,7 @@ body {
   backdrop-filter: blur(5px);
   color: #F2F2F2;
   min-height: 100vh;
+ 
 }
 
 button {

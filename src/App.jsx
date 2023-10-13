@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Tarefas } from "./components/Tarefas";
 import Header from "./components/Header";
 import Procurar from "./components/Procurar";
+import Particle from "./components/Particles/ParticlesBackground";
 
 const LOCAL_STORAGE_KEY = "todo:tarefassalvas";
 function App() {
@@ -56,6 +57,7 @@ function App() {
 
   return (
     <>
+    <Particle />
       <Header onAddTask={adicionarTarefa} />
       <Procurar procurar={procurar} setProcurar={setProcurar} />
       <Tarefas

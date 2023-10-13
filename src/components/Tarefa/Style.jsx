@@ -12,18 +12,22 @@ export const TarefaDiv = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  position: relative;
 
   p {
     font-size: 14px;
     line-height: 19px;
     color: #f2a30b;
     margin-right: auto;
+    position: relative;
   }
 
   p.textCompleted {
     color: #808080;
     text-decoration: line-through;
+    position: relative;
   }
+
 `
 
 export const CheckContainer = styled.button`
