@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
+
 export const GlobalStyle = createGlobalStyle`
    * {
   margin: 0;
@@ -16,9 +17,8 @@ export const GlobalStyle = createGlobalStyle`
 
 body {
   background-image: url("/public/kages.png");
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100%;
+  
   opacity: 100%;
   backdrop-filter: blur(5px);
   color: #F2F2F2;
@@ -30,3 +30,5 @@ button {
   cursor: pointer;
 }
 `
+
+

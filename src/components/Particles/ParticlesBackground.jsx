@@ -1,7 +1,7 @@
 
 import { useCallback } from "react";
 import Particles from "react-particles";
-import { loadFull } from "tsparticles"; 
+
 import { loadSlim } from "tsparticles-slim"; 
 
 const Particle = () => {
@@ -34,10 +34,10 @@ const Particle = () => {
                 events: {
                     onClick: {
                         enable: true,
-                        mode: "push",
+                        mode: "repulse",
                     },
                     onHover: {
-                        enable: true,
+                        enable: false,
                         mode: "attract",
                        
                     },

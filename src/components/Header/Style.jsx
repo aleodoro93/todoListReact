@@ -27,6 +27,7 @@ export const FormNovaTarefa = styled.form`
   display: flex;
   gap: 8px;
   padding: 0 1rem;
+ 
 `;
 
 export const InputNovaTarefa = styled.input`
@@ -38,8 +39,10 @@ export const InputNovaTarefa = styled.input`
   border-radius: 20px;
   padding: 0 16px;
   font-size: 16px;
+  text-align: center;
   input::placeholder {
     color: #808080;
+  
   }
 `;
 export const BtnNovaTarefa = styled.button`

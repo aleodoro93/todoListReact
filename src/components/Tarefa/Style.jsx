@@ -31,8 +31,8 @@ export const TarefaDiv = styled.div`
 `
 
 export const CheckContainer = styled.button`
-  width: 22px;
-  height: 12px;
+  width: 20px;
+  height: 20px;
   background: none;
   border: none;
  
@@ -55,3 +55,9 @@ export const BtnDeletar = styled.button`
   border: none;
   color: #808080;
   `
+
+export const BtnEditar = styled.button`
+background: none;
+border: none;
+color: #808080;
+`

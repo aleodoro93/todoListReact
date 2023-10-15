@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const DivProcurar = styled.div`
   
-  margin-left: 38%;
+  margin-left: 40%;
   margin-top: 5%;
   display: flex;
   align-items: center;
@@ -22,6 +22,7 @@ export const ProcurarInput = styled.input`
   border-radius: 5px;
   padding: 0 16px;
   font-size: 16px;
+  text-align: center;
   input::placeholder {
     color: #808080;
   }
