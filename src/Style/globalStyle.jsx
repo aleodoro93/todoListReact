@@ -18,6 +18,7 @@ export const GlobalStyle = createGlobalStyle`
 body {
   background-image: url("/public/kages.png");
   background-repeat: no-repeat;
+  background-size: cover;
   
   opacity: 100%;
   backdrop-filter: blur(5px);

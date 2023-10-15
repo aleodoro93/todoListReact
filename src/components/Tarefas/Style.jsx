@@ -1,24 +1,23 @@
 import styled from "styled-components";
 
 export const TarefasSec = styled.section`
+
   width: 100%;
   max-width: 736px;
   margin: 0 auto;
-  margin-top: 90px;
-  padding: 0 1rem;
+
+  padding: 1rem;
   position: relative;
- 
-  
+  justify-content: center;
 `;
 
 export const TarefasHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 24px;
+  margin-bottom: 34px;
+ 
   position: relative;
-  
-  
 
   > div {
     display: flex;
@@ -28,10 +27,9 @@ export const TarefasHeader = styled.div`
   }
 
   p {
-    
-    color: #fff;
+    color: #020202;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 900;
     position: relative;
   }
 
@@ -43,14 +41,13 @@ export const TarefasHeader = styled.div`
     font-size: 12px;
     font-weight: 700;
     position: relative;
-    
   }
 `;
 
-
 export const ListaTarefas = styled.div`
+  
   display: flex;
   flex-direction: column;
   gap: 12px;
   position: relative;
-`
+`;

@@ -1,15 +1,14 @@
 import styled from "styled-components";
 
 export const DivProcurar = styled.div`
-  
   margin-left: 40%;
-  margin-top: 5%;
+  margin-top: 2%;
   display: flex;
   align-items: center;
   width: fit-content;
- min-width: 20%;
- min-height: 20%;
- position: relative;
+  min-width: 20%;
+  min-height: 20%;
+  position: relative;
 `;
 
 export const ProcurarInput = styled.input`

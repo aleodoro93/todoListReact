@@ -40,6 +40,19 @@ function App() {
     ]);
   }
 
+  function handleEditTask(taskId, newTitle) {
+    const newTasks = tasks.map((task) => {
+      if (task.id === taskId) {
+        return {
+          ...task,
+          title: newTitle, 
+        };
+      }
+      return task;
+    });
+    setSaveTask(newTasks);
+  }
+
   function TaskCompleteById(taskId) {
     const newTasks = tasks.map((task) => {
       if (task.id === taskId) {
@@ -89,6 +102,7 @@ function App() {
         )}
         onComplete={TaskCompleteById}
         onDelete={deletarTaskById}
+        onEdit={handleEditTask}
       />
     </>
   );

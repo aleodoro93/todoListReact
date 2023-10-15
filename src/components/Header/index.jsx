@@ -1,5 +1,4 @@
 import { useState } from "react";
-import sharingan from "/public/sharingan.gif"
 import { Cabecalho, FormNovaTarefa, InputNovaTarefa, BtnNovaTarefa } from "./Style";
 import logoNaruto from "/public/logoNaruto.svg";
 import { AiOutlinePlusCircle } from "react-icons/ai";
