@@ -1,8 +1,100 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## SHINOBI TO DO LIST
 
-Currently, two official plugins are available:
+Este é um projeto construído com React que oferece uma aplicação de lista de tarefas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto foi criado no âmbito educacional para o Módulo 5 do Curso Códigos do Amanhã, EBANX.
+
+Instruções de utilização
+Para utilizar esta aplicação, é necessário atender aos seguintes requisitos.
+
+Requisitos prévios
+
+Ter o Node.js (versão utilizada: v18.17.1) instalado em seu computador.
+Clonar este repositório.
+Instalar as dependências do projeto.
+Após a instalação do Node.js, siga as etapas para clonar o repositório:
+
+Para clonar o projeto usando HTTPS:
+
+```bash
+git clone https://github.com/aleodoro93/todoListReact.git
+```
+
+Se preferir utilizar a chave SSH:
+
+```bash
+ git git@github.com:aleodoro93/todoListReact.git
+```
+
+Acesse o diretório do projeto:
+
+```bash
+cd to-do-craft
+```
+
+Instale as dependências.
+
+Utilizando o gerenciador de pacotes npm:
+
+```bash
+npm install
+```
+Usando o Yarn:
+
+```bash
+yarn install
+```
+Ou com o pnpm:
+
+```bash
+pnpm install
+```
+Inicie a aplicação.
+
+Com o npm:
+
+```bash
+npm run dev
+```
+Acessar o link que o vite dará
+
+  O projeto está disponível para uso! 
+Aqui está um exemplo de como usar a aplicação:
+
+Clique no botão "Adicionar Tarefa" para abrir um formulário.
+
+Insira o título desejado e selecione o status da tarefa.
+
+
+Clique em "Adicionar" para inserir a tarefa na lista ou "Cancelar" para fechar o formulário.
+
+Você pode editar uma tarefa clicando no ícone de edição no cartão.
+
+Cada tarefa tem uma lixeira que permite excluir o cartão quando acionada.
+
+É possível filtrar as tarefas por opções como completas, incompletas ou todas.
+
+Há uma barra de pesquisa que permite pesquisar tarefas.
+
+## Referências
+
+
+
+[Node.Js](https://nodejs.org/pt-br/docs)
+
+
+[Vite](https://vitejs.dev/)
+
+
+[React Particles/TsParticles](https://particles.js.org/)
+
+
+
+[Styled Components](https://styled-components.com/)
+
+
+Licença
+MIT
+
+Desenvolvido por André Leodoro
