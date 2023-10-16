@@ -86,14 +86,12 @@ const Particle = () => {
             value: 0.5,
           },
           shape: {
-            type: "image",
+            type: "circle",
+            width: "0.5"
 
-            image: {
-              src: "/public/sharingan.gif",
-            },
           },
           size: {
-            value: { min: 4, max: 20 },
+            value: { min: 1, max: 6 },
           },
         },
         detectRetina: true,
