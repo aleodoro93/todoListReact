@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 export const Cabecalho = styled.header`
   
+  @font-face {
+      font-family: "njnaruto";
+      src: url("./public/njnaruto.ttf") format("truetype");
+    }
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,10 +15,7 @@ export const Cabecalho = styled.header`
   width: 100vw;
 
   h1 {
-    @font-face {
-      font-family: "njnaruto";
-      src: url("./public/njnaruto.ttf") format("truetype");
-    }
+    
     font-family: "njnaruto", sans-serif;
   }
 `;
