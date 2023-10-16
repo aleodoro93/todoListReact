@@ -2,10 +2,7 @@ import styled from "styled-components";
 
 export const Cabecalho = styled.header`
   
-  @font-face {
-      font-family: "njnaruto";
-      src: url("./public/njnaruto.ttf") format("truetype");
-    }
+  
 
   display: flex;
   align-items: center;

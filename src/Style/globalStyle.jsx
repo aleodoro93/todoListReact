@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import Kages from "../../public/kages.png"
+import NarutoFont from "../../public/njnaruto.ttf"
+
 
 export const GlobalStyle = createGlobalStyle`
    * {
@@ -12,7 +14,10 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 
-
+@font-face {
+      font-family: "njnaruto";
+      src: url(${NarutoFont}) format("truetype");
+    }
 
 
 body {
