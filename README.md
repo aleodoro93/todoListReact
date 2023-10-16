@@ -62,16 +62,14 @@ Acessar o link que o vite dará
   O projeto está disponível para uso! 
 Aqui está um exemplo de como usar a aplicação:
 
-Clique no botão "Adicionar Tarefa" para abrir um formulário.
-
 Insira o título desejado e selecione o status da tarefa.
 
 
-Clique em "Adicionar" para inserir a tarefa na lista ou "Cancelar" para fechar o formulário.
+Clique em "Adicionar" para inserir a tarefa na lista..
 
-Você pode editar uma tarefa clicando no ícone de edição no cartão.
+Você pode editar uma tarefa clicando no ícone de edição.
 
-Cada tarefa tem uma lixeira que permite excluir o cartão quando acionada.
+Cada tarefa tem uma lixeira que permite excluir a tarefa quando acionada.
 
 É possível filtrar as tarefas por opções como completas, incompletas ou todas.
 
