@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-
+import Kages from "../../public/kages.png"
 
 export const GlobalStyle = createGlobalStyle`
    * {
@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
 
 
 body {
-  background-image: url("/public/kages.png");
+  background-image: url(${Kages});
   background-repeat: no-repeat;
   background-size: cover;
   
