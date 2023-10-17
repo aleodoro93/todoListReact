@@ -1,6 +1,12 @@
 
 ## SHINOBI TO DO LIST
 
+## Vercel
+
+```Vercel
+https://todo-list-react-eight-beige.vercel.app/
+```
+
 Este é um projeto construído com React que oferece uma aplicação de lista de tarefas.
 
 O projeto foi criado no âmbito educacional para o Módulo 5 do Curso Códigos do Amanhã, EBANX.
