@@ -36,7 +36,7 @@ Se preferir utilizar a chave SSH:
 Acesse o diretório do projeto:
 
 ```bash
-cd to-do-craft
+cd to todoListReact
 ```
 
 Instale as dependências.
